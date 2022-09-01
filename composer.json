@@ -1,0 +1,19 @@
+{
+    "name": "nur/htdocs",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Nur\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gizem Nur",
+            "email": "gizemnur@gmail.com"
+        }
+    ]
+}
